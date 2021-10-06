@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-strapi-snipcart",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "develop": "nuxt",
+    "start": "npm run generate && nuxt start",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "serve": "nuxt serve"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@nuxtjs/strapi": "^0.1.10",
+    "@nuxtjs/tailwindcss": "^2.0.0",
+    "core-js": "^2.6.5",
+    "graphql": "^15.5.3",
+    "graphql-tag": "^2.12.5",
+    "nuxt": "^2.14.6",
+    "nuxt-i18n": "^6.28.1",
+    "vue-meta": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@nuxtjs/tailwindcss": "^2.0.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "^4.46.0"
+  }
+}

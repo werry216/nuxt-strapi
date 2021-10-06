@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/lv-LV", {data:[{products:[]}],fetch:{},mutations:void 0});
